@@ -1,8 +1,8 @@
-## Python Quick Reaction Game
+## ScratchGPIO Quick Reaction Game
 
 **Introduction**
 
-This project gives you the opportunity to use electronics to create a quick reaction game that you will program using Python. If you have little or no experience of creating circuits do not worry, this guide will walk you through it and by the end you will have a fun game to play with your friends.
+This project gives you the opportunity to use electronics to create a quick reaction game that you will program using Scratch. If you have little or no experience of creating circuits do not worry, this guide will walk you through it and by the end you will have a fun game to play with your friends.
 
 ## Step 0: Setting up your Raspberry Pi
 
@@ -18,7 +18,7 @@ You will require the following components in order to create this game with your
 
 ## Step 1: Connect the Components
 
-Before using Python the program the game, you will need to connect the electronic components on a **breadboard** that has lots of holes in it allowing you to connect electrical bits together really easily. To help know which pins to connect cables to it is recommended that you download and print a [Raspberry Leaf](https://github.com/simonmonk/wiki_images/raw/master/raspberry%20leaf%20r2.pdf) diagram and place it over the pinson your Raspberry Pi.
+Before using ScratchGPIO the program the game, you will need to connect the electronic components on a **breadboard** that has lots of holes in it allowing you to connect electrical bits together really easily. To help know which pins to connect cables to it is recommended that you download and print a [Raspberry Leaf](https://github.com/simonmonk/wiki_images/raw/master/raspberry%20leaf%20r2.pdf) diagram and place it over the pinson your Raspberry Pi.
 
 **Activity Checklist:**
 
