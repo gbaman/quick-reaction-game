@@ -34,13 +34,13 @@ Before using Python the program the game, you will need to connect the electroni
 
 6. Time to add the jumper wires. Start by taking two male to male jumper wires and placing one side in a hole next to the outside leg of the lft hand button, and the other leg in a hole along the blue strip. Repeat this step with the right hand button.
 
-7. Then with a male to female jumper wire, connect **GPIO 2** to a hole on the breadboard in line with the other leg of the left hand button. Repeat this step for the right hand button, only this time connecting it to **GPIO 3**.
+7. Then with a male to female jumper wire, connect **GPIO 24** to a hole on the breadboard in line with the other leg of the left hand button. Repeat this step for the right hand button, only this time connecting it to **GPIO 26**.
 
 8. Using another male to female jumper wire, connect **GPIO 11** to a hole on the breadboard in line with the long leg of the LED.
 
 9. Finally with the remaining male to female jumper wire, connect a **GND** GPIO pin to the blue strip on the breadboard.
 
-	![](quick-reaction-circuit.png)
+	![](images/quick-reaction-circuit.jpg)
 
 ## Step 2: Controlling the Light
 
@@ -72,7 +72,7 @@ When programming it makes sense to tackle one problem at a time. This makes it e
 6. 	As you are outputting to an LED you need to set up the pin that that the LED connects to on the Raspberry Pi as an output. First by using a variable to name the pin and then by setting the output:
 
 	```python
-	led = 23
+	led = 11
 
 	GPIO.setup(led, GPIO.OUT)
 	```
@@ -134,11 +134,11 @@ As with the last step, some code needs to be added to your current program.
 
 **Activity Checklist:**
 
-1. With the file **reaction.py** open add the following variables underneath `led = 23`
+1. With the file **reaction.py** open add the following variables underneath `led = 11`
 
 	```python
-	right_button = 3
-	left_button = 5
+	right_button = 24
+	left_button = 26
 	```
 
 2. Next set the buttons as input in the same way that you set the LED as output. Underneath `GPIO.setup(led, GPIO.OUT)` type:
